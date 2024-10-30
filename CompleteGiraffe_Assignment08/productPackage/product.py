@@ -26,18 +26,18 @@ class Product:
         """
         Simulate the restocking of a product
         """
-        print("Restocking product with UPC", self.__UPC)
+        print(f"Restocking product with UPC:, {self.__UPC}")
 
     def __str__(self):
         """
         @return String: Representation of the current product object.
         """
-        return "UPC: ", self.__UPC
+        return "UPC: " + self.__UPC
 
     def __repr__(self):
         """
         @return String: Representing the current product object.
         """
-        return f"UPC('{self.__type}')"
+        return f"Product('{self.__UPC}')"
       
 
