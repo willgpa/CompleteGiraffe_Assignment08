@@ -31,7 +31,7 @@ if __name__ == "__main__":
     # Use __repr__ to create a new product object
     new_product = eval(repr(product))
     print("New Product from repr:", new_product)
-
+    print("************************************************************************************************************")
     # Create a supplier instance
     supplier = Supplier("ABC Electronics", "Electronics")
 
