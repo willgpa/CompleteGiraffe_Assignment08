@@ -20,14 +20,15 @@ class Supplier(object):
     def __init__(self, name, category):
         """
         Constructor
-        @param category String: The category of the products supplied
+        @param name String: the name of the supplier
+        @param category String: The category of the products supplied.
         """
         self.__name = name
         self.__category = category
 
     def get_category(self):
         """
-        @return String: The suppliers product category of the current object
+        @return String: The suppliers product category of the current object.
         """
         return self.__category
     

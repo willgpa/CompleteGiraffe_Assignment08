@@ -35,12 +35,12 @@ class Product:
         """ 
         return self.__UPC
 
-    def UPC(self, value):
+    def set_UPC(self, value):
         """
         Assign a UPC to the current product
         @param UPC: the UPC that is going to be assigned
         """
-        self.UPC = value
+        self.__UPC = value
 
     def get_stock(self):
         """
