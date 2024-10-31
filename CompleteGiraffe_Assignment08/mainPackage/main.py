@@ -29,7 +29,7 @@ if __name__ == "__main__":
     print(f"Updated stock: {product.get_stock()}")
 
     # Use __repr__ to create a new product object
-    new_product = eval(repr(product))
+    new_product = eval(product.__repr__())
     print("New Product from repr:", new_product)
     print("************************************************************************************************************")
     # Create a supplier instance
@@ -46,7 +46,7 @@ if __name__ == "__main__":
     print(f"Updated Supplier Name: {supplier}")
 
     # Use __repr__ to create a new supplier 
-    new_supplier = eval(repr(supplier))
+    new_supplier = eval(supplier.__repr__())
     print("New Supplier from repr:", new_supplier)
 
     # New supplier's category
